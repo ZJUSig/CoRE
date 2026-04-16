@@ -151,6 +151,7 @@ print(core_qa[0]["question"])
 
 ### Filter by fields
 
+```
 o1_samples = [
     item for item in core_io
     if item.get("model_used") == "o1"
@@ -175,4 +176,4 @@ When using the dataset, a few practical points may help:
 
 ## Acknowledgments
 
-The reasoning code used in this project is based on the implementation from [TnTWoW/code_reasoning](https://github.com/TnTWoW/code_reasoning), the official repository for *Unveiling the Magic of Code Reasoning through Hypothesis Decomposition and Amendment*. We sincerely thank the authors for open-sourcing their code and making this work possible.
+The reasoning code used in this project is based on the implementation from [TnTWoW/code_reasoning](https://github.com/TnTWoW/code_reasoning). We sincerely thank the authors for open-sourcing their code and making this work possible.
